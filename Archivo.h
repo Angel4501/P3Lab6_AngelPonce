@@ -14,3 +14,13 @@ class Archivo : public FileSystemNode
 };
 
 #endif
+#ifndef ARCHIVO_H
+#define ARCHIVO_H
+
+class Archivo
+{
+	public:
+	protected:
+};
+
+#endif

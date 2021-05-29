@@ -5,10 +5,11 @@
 class FileSystem
 {
 	private:
-		Directorio* root;
+		Directorio* root;	
 	public:
 		FileSystem();
 		~FileSystem();
+		Directorio* getRoot();
 	protected:
 };
 

@@ -12,8 +12,6 @@ class FileSystemNode
 		
 	public:
 		FileSystemNode();
-
-		
 		FileSystemNode(string,string,FileSystemNode*);//constructor sobrecargado
 		virtual string toString()=0;
 	protected:

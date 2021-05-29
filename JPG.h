@@ -2,6 +2,8 @@
 #define JPG_H
 #include<string>
 #include "Archivo.h"
+#include<iostream>
+#include<sstream>
 using namespace std;
 
 class JPG : public Archivo
@@ -14,6 +16,7 @@ class JPG : public Archivo
 		
 	public:
 		JPG();
+		JPG(bool,string,double,double);
 		virtual string toString();
 	protected:
 };

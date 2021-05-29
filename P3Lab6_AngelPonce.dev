@@ -200,3 +200,23 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
+[Unit16]
+FileName=Archivo.h
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit17]
+FileName=Archivo.cpp
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
